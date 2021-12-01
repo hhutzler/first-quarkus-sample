@@ -1,0 +1,9 @@
+quarkus.container-image.registry=ghcr.io
+quarkus.container-image.group=hhutzler
+quarkus.container-image.name=quarkus-first-sample
+quarkus.container-image.tag=latest
+quarkus.kubernetes.namespace=quarkus-testing
+quarkus.kubernetes.service-account=quarkus-sa
+quarkus.kubernetes.ingress.host=app1.quarkus.com
+quarkus.kubernetes.ingress.expose=true
+quarkus.kubernetes.expose=true
